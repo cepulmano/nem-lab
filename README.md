@@ -3,6 +3,8 @@
 
 Follow the instructions provided below for the lab exercise.
 
+## Download the repository to your local machine. 
+
 ## Complete the script file to perform the following actions:
 
 1. Generate a new NEM Testnet account
