@@ -18,7 +18,7 @@ Follow the instructions provided below for the lab exercise.
 
 ## Submission in Moodle
 
-Compress all files into a ZIP folder and set the file to **LASTNAME_NEM_LABEXERCISE.zip**
+Compress all files into a ZIP folder and set the filename to **LASTNAME_NEM_LABEXERCISE.zip**
 
 1. Submit a text file containing the following items:
 	* Full Name: **[FULL_NAME]**
