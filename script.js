@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+	var ACCOUNT_ADDRESS;
+	var PRIVATE_KEY;
+	var PUBLIC_KEY;
+
+	// Checker if you have already assigned account in the script
+	if(ACCOUNT_ADDRESS !== undefined && PRIVATE_KEY !== undefined && PUBLIC_KEY !== undefined) { $("#start").attr("disabled",true);$("#transfer").attr("disabled",false);$("#generateaccount").attr("disabled",true);};
+
 	function printout(text)
 	{
 		date = new Date();

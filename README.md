@@ -3,7 +3,7 @@
 
 Follow the instructions provided below for the lab exercise.
 
-## Complete the script file that can perform the following actions:
+## Complete the script file to perform the following actions:
 
 1. Generate a new NEM Testnet account
 2. Using the newly generated account, request for test XEM from the [testnet faucet](http://testfaucet.nem.ph/).
