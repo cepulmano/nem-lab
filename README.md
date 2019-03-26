@@ -27,4 +27,4 @@ Compress all files into a ZIP folder and set the filename to **LASTNAME_NEM_LABE
 	* Account Address: **[ACCOUNT_ADDRESS]**
 	* Fully Qualified Namespace: **[FQN]**
 	* Mosaic Name: **[mosaic_name]**
-2. Submit the script file containing your source code.
+2. Submit the script ***(script.js)*** file containing your source code.
