@@ -1,12 +1,5 @@
 $(document).ready(function () {
 
-	var ACCOUNT_ADDRESS;
-	var PRIVATE_KEY;
-	var PUBLIC_KEY;
-
-	// Checker if you have already assigned the account in the script
-	if(ACCOUNT_ADDRESS !== undefined && PRIVATE_KEY !== undefined && PUBLIC_KEY !== undefined) { $("#start").attr("disabled",true);$("#transfer").attr("disabled",false);$("#generateaccount").attr("disabled",true);};
-
 	function printout(text)
 	{
 		date = new Date();
@@ -18,6 +11,8 @@ $(document).ready(function () {
 		printout("Performing generateaccount!");
 
 		// Write code below to perform the action
+
+		printout("Generate account: SUCCESS!");
 	}
 
 	function transfer()
@@ -25,6 +20,8 @@ $(document).ready(function () {
 		printout("Performing transfer!");
 
 		// Write code below to perform the transaction
+
+		printout("Transfer Transaction: SUCCESS!");
 	}
 
 	function provisionnamespace()
@@ -32,6 +29,8 @@ $(document).ready(function () {
 		printout("Performing provisionnamespace!");
 
 		// Write code below to perform the transaction
+
+		printout("Namespace Provision Transaction: SUCCESS!");
 	}
 
 	function createmosaic()
@@ -39,6 +38,8 @@ $(document).ready(function () {
 		printout("Performing createmosaic!");
 
 		// Write code below to perform the transaction
+
+		printout("Create Mosaic Transaction: SUCCESS!");
 	}
 	
 	function transfermosaic()
@@ -46,47 +47,13 @@ $(document).ready(function () {
 		printout("Performing transfermosaic!");
 
 		// Write code below to perform the transaction
+		printout("Transfer Mosaic Transaction: SUCCESS!");
 	}
-
-	$("#start").click(function() {
-		printout("Let's start!");
-
-		$("#start").attr("disabled",true);
-		$("#generateaccount").attr("disabled",false);
-	});
 	
-	$("#generateaccount").click(function() {
-		generateaccount();
-
-		$("#generateaccount").attr("disabled",true);
-		$("#transfer").attr("disabled",false);
-	});
-
-	$("#transfer").click(function() {
-		transfer();
-
-		$("#transfer").attr("disabled",true);
-		$("#provisionnamespace").attr("disabled",false);
-	});
-
-	$("#provisionnamespace").click(function() {
-		provisionnamespace();
-
-		$("#provisionnamespace").attr("disabled",true);
-		$("#createmosaic").attr("disabled",false);
-	});
-
-	$("#createmosaic").click(function() {
-		createmosaic();
-
-		$("#createmosaic").attr("disabled",true);
-		$("#transfermosaic").attr("disabled",false);
-	});
-
-	$("#transfermosaic").click(function() {
-		transfermosaic();
-
-		$("#transfermosaic").attr("disabled",true);
-	});
+	$("#generateaccount").click(function() { generateaccount(); });
+	$("#transfer").click(function() { transfer(); });
+	$("#provisionnamespace").click(function() { provisionnamespace(); });
+	$("#createmosaic").click(function() { createmosaic(); });
+	$("#transfermosaic").click(function() { transfermosaic(); });
 
 });
